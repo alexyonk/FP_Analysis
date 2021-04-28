@@ -3,13 +3,13 @@ Custom-written MATLAB scripts to import , analyze, and plot fiber photometry dat
 
 
 # Fiber Photometry Single Color Detrending Script
-- This script is used in conjunction with the output from OceanOptics spectrometer and software
+This script is used in conjunction with the output from OceanOptics spectrometer and software
 
-- The data must be imported into Excel from the text file output used by OceanOptics.
-- Once the data is imported to Excel, delete the informational columns (e.g. rows 1-14)
-- First column contains the Date/Time data
-- Second column contains the UNIX time code (NOTE: Code needs to be updated once a bug within OceanOptics is fixed). For now, the integration time is generated in the MATLAB script.
-- The rest of the columns contain the values of each specific wavelength at each sample taken.
-- This script only pulls out green light relevant data (e.g. ~500nm - ~540nm)
-- Delta F/F, Z Score, and MAD Z Score are calculated and subplotted in a graph
+1. The data must be imported into Excel from the text file output used by OceanOptics.
+2. Once the data is imported to Excel, delete the informational columns (e.g. rows 1-14)
+3. First column contains the Date/Time data
+4. Second column contains the UNIX time code (NOTE: Code needs to be updated once a bug within OceanOptics is fixed). For now, the integration time is generated in the MATLAB script.
+5. The rest of the columns contain the values of each specific wavelength at each sample taken.
+6. This script only pulls out green light relevant data (e.g. ~500nm - ~540nm)
+7. Delta F/F, Z Score, and MAD Z Score are calculated and subplotted in a graph
 - ***Note: Both the OceanOptics text file and Excel file have been uploaded as test files
