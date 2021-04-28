@@ -12,4 +12,4 @@ This script is used in conjunction with the output from OceanOptics spectrometer
 5. The rest of the columns contain the values of each specific wavelength at each sample taken.
 6. This script only pulls out green light relevant data (e.g. ~500nm - ~540nm)
 7. Delta F/F, Z Score, and MAD Z Score are calculated and subplotted in a graph
-- ***Note: Both the OceanOptics text file and Excel file have been uploaded as test files
+- ***Note: Unable to upload OceanOptics text file and Excel file as test files due to file size. Please email me if you would like these files (alex.yonk2@gmail.com)
